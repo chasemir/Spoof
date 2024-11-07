@@ -217,7 +217,7 @@ The groupby function groups the data frame by the specified column, 'artist(s)
 
 count = spoof.groupby('artist(s)_name').size().reset_index(name='count')
 
-# Sort the values in descending order and Find top 5 artist
+# Sort the values in descending order and Find the top 5 artist
 
 top_5 = count.sort_values(by='count', ascending=False).head(5)
 
@@ -298,11 +298,13 @@ plt.show()
 ```
 
 The monthly release patterns reveal that, while there is no clear overall trend, certain months show noticeable boosts in music releases, particularly in January and May. Seasonal factors may also play a role, with months like November and December seeing slight increases due to the holiday season. However, this boost is limited, as holiday songs, especially Christmas, often resurface classic Christmas songs or covers of classic Christmas songs. Overall, the release pattern remains relatively evenly distributed throughout the year, with notable peaks in January and May and a noticeable decline in August. 
+
 ![Alt text](2.png)
 
 The number of tracks per year has continually grown, especially over the early 2000s. For nearly its whole history, release quantities have been low and unchanging. However, it began skyrocketing in the first few years of the twenty-first century. This steady climb might be owed to increased opportunities in digital distribution, alongside the new platforms of streaming that have become available, which makes the artist put his music more often online while making audiences reach these recordings worldwide. In 2020, there was a significant upsurge in output, and the nature of the data frame compiled could account for this spike.
 
 Since this dataset focuses on the most listened-to songs of 2023, it is heavily concentrated on tracks released from 2020 onward. With digital streaming continuing to grow as an industry and recent music aligning with current trends, these newer songs naturally generate more streams. This also explains the sparse releases from 1940 to the early 2000s, as songs from those decades may no longer resonate with today's listeners or fit modern trends, making them less likely to appear in the most-streamed lists.
+
 ![Alt text](3.png)
 
 ☆
@@ -389,6 +391,7 @@ plt.show()
 ```
 
 - The marks for plot and danceability are scattered on the graph, which suggests that these qualities probably do not correlate so well. Much more correlation would have a trend or clustering either upwardly or downwardly. The points having a random scattering around this chart means that energy does not rise or fall in such a predictable fashion as with danceability rising.
+  
 ![Alt text](5.png)
 
 Valence (%) vs Acousticness (%)
@@ -414,6 +417,7 @@ plt.show()
 ```
 
 - The plot for valence and acoustics shows a scattered distribution with no apparent linear pattern. This lack of a trend implies valence and acoustics are not strongly correlated. If these two attributes had a strong relationship, a visible trend should be visible where the variables are either proportional or vice versa. However, the points are evenly spread throughout the plot, meaning the variables do not significantly impact one another.
+
 ![Alt text](6.png)
 
 ☆
@@ -448,6 +452,7 @@ plt.show()
 From the visualization, it is clear that Spotify favors popular tracks more, as the number of tracks in playlists is more significant than that of Deezer and Apple Music. This difference might mean Spotify has more users who create or use more playlists or possesses a much broader collection of popular tracks added to playlists. It also matches that Spotify is the most widely used streaming service, with 350 million users and 150 million subscribers (CNN, 2024).
 
 On the other hand, the number of tracks on Deezer and Apple Music's playlists is much smaller. This might be attributed to their smaller user base as compared to others. For instance, Deezer has around 10.5 million subscribers (Deezer, 2024), and Apple Music has around 93 million (DemandSage, 2024). The difference in the number of subscribers leads to a difference in activity and popularity in playlists.
+
 ![Alt text](7.png)
 
 ☆
@@ -476,6 +481,7 @@ plt.show()
 The box plot shows an interesting pattern: minor keys tend to outperform major keys in the number of streams. In other words, minor keys, often connected with deeper emotions, are more relatable to the audience. Though major keys seem more balanced, minor keys usually have a higher median and a longer tail, meaning more tracks have very high stream counts. This phenomenon might be due to several reasons, including emotional resonance or preference for specific genres. Moreover, songs of a "sad" or moody nature tend to be in minor keys. Although this is not an absolute rule, it is broadly accepted that in comparison with major keys, minor keys are more effective in communicating a somber or emotional tone to the listener.
 
 The function explodes: This explodes each artist's name into separate rows in the spoof data frame's artist(s)_name column. This "unpacks" rows with multiple artists to give each artist their row. Therefore, any track credited with multiple artists will have separate rows for each artist so that they can be counted individually. Two lists were created: playlist_columns and chart_columns; these hold column names to track appearances in playlists and charts across platforms. Then, the following code groups the data frame by the column artist(s)_name and sums each artist's appearances across all the specified playlists and charts with those column names. 
+
 ![Alt text](8.png)
 
 The total number of playlists and charts is calculated for each artist by adding the corresponding columns. Total_playlists calculates all playlist-related appearances, whereas total_charts sums all chart appearances, giving the best overall view of an artist's appearance on playlists and charts. The artists are then sorted by total_playlists and total_charts in descending order, thus giving precedence to artists with the highest total visibility on different platforms. head(10) selects only the top 10 artists.
@@ -552,6 +558,7 @@ An analysis of playlist and chart data reflects consistent presence by some 
 dominated the most curated lists and charts because of their broad appeal and substantial fan bases. Their influence can thus be attributed to popularity, cross-genre appeal, and practical strategies of fan engagement that amplify their influence within the streaming industry.
 
 Taylor Swift was crowned the Most Famous Artist of 2023, acknowledging her significant influence and cultural trends worldwide. Harry Styles' song "As It Was" was the third most streamed song, and The Weeknd's Starboy ranked as the third most successful album globally, proving his current trend in music charts. Many artists constantly appearing on these playlists are indeed superstars widely recognized for their frequent presence in the international top 10 based on album strength, song, and overall artist power (Spotify, 2023). The fact that these established artists dominate the playlists is a testament to the power of their loyal fan base and general appeal.
+
 ![Alt text](9.png)
 
 ☆
