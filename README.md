@@ -1,6 +1,6 @@
 # ˚₊‧꒰ა SPOOF ໒꒱ ‧₊˚
 
-## ꒰ᐢ⸝⸝•༝•⸝⸝ᐢ꒱⸒⸒ 
+## ⋆ ˚｡ ꒰ᐢ⸝⸝•༝•⸝⸝ᐢ꒱⸒⸒ ⋆౨ৎ˚
 
 ## INTRODUCTION 
 This repository uses Python packages like Pandas, Matplotlib, and Seaborn to analyze Kaggle's Most Streamed Spotify Songs 2023. Popular songs with characteristics like BPM, key, mode, and playlist appearances are included in the dataset, which provides information on listener preferences and worldwide music trends.
