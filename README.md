@@ -199,6 +199,8 @@ Trends
 Outliers
 - Artist counts above 3 are sparse from 1940 to 2000, with only one notable outlier showing an artist count of 4. Although collaborations increased steadily after 2000, releases with more than four artists remain relatively rare. For example, there are only two data points each for artist counts of 5, 7, and 8, and just one data point for an artist count of 6. These values are still low compared to releases with artist -counts below 3, which are far more common.
 
+☆ 
+
 ## ༊*·˚TOP PERFORMERS ₊˚✩
 
 The sort_values function sorts the rows of the data frame based on the specified column, 'streams' in this case. By setting the ascending=False argument, the values are sorted in descending order, meaning the rows with the highest number of streams will appear first. After sorting, the head(5) function automatically selects and displays the top 5 rows from the sorted data frame, corresponding to the five rows with the highest stream counts.
