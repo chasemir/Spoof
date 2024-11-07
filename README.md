@@ -183,8 +183,8 @@ plt.ylabel('Artist Count')
 plt.title('Scatter Plot of Released Year VS Artist Count')
 plt.show()
 ```
-(plot)
-![Alt text](<img width="555" alt="Screenshot 2024-11-08 at 1 13 27 AM" src="https://github.com/user-attachments/assets/7bbf510b-e81f-45d9-b124-6f311d15b30c">)
+
+![Alt text]()
 
 ### Trends and Outliers 
 
