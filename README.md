@@ -1,5 +1,5 @@
-# SPOOF🕸️
-
+# ˚₊‧꒰ა SPOOF ໒꒱ ‧₊˚
+☆ 
 ## INTRODUCTION 
 This repository uses Python packages like Pandas, Matplotlib, and Seaborn to analyze Kaggle's Most Streamed Spotify Songs 2023. Popular songs with characteristics like BPM, key, mode, and playlist appearances are included in the dataset, which provides information on listener preferences and worldwide music trends.
 
@@ -7,7 +7,9 @@ Top songs, famous singers, and release schedules are all examined. It also looks
 
 The central coding platform used to clean the dataset was Jupyter Notebook. GitHub was used to store and distribute explanations of the Jupyter Notebook results. The core of 2023's most-streamed music, as well as the patterns and trends influencing listener preferences worldwide, are captured in this repository.
 
-## OVERVIEW
+☆ 
+
+## ༊*·˚OVERVIEW ₊˚✩
 The data frame is approximately 953 x 24 (row x column). The shape of the data frame can be seen using the code below.
 ```
 spoof.shape
@@ -154,8 +156,9 @@ spoof.isnull().sum()
 | liveness_%            | 0          |
 | speechiness_%         | 0          |
 
+☆ 
 
-## STREAMS
+## ༊*·˚STREAMS ₊˚✩
 Using the functions mean, median, and std, their corresponding values can be found.
 ```
 spoof['streams'].mean()
@@ -186,7 +189,7 @@ plt.show()
 
 ![Alt text](1.png)
 
-### Trends and Outliers 
+### ୧ ‧₊˚Trends and Outliers₊˚⊹♡
 
 Trends
 - The plot shows an increase in the number of songs released over time, especially from 2000 to 2020, where there is a dense cluster of data points. In the earlier years, from 1940 to 2000, collaborations between artists were minimal, with most releases involving only one or two artists. After 2000, artist collaborations became more common, as indicated by the higher artist counts.
@@ -194,7 +197,8 @@ Trends
 Outliers
 - Artist counts above 3 are sparse from 1940 to 2000, with only one notable outlier showing an artist count of 4. Although collaborations increased steadily after 2000, releases with more than four artists remain relatively rare. For example, there are only two data points each for artist counts of 5, 7, and 8, and just one data point for an artist count of 6. These values are still low compared to releases with artist -counts below 3, which are far more common.
 
-## TOP PERFORMERS 
+## ༊*·˚TOP PERFORMERS ₊˚✩
+
 The sort_values function sorts the rows of the data frame based on the specified column, 'streams' in this case. By setting the ascending=False argument, the values are sorted in descending order, meaning the rows with the highest number of streams will appear first. After sorting, the head(5) function automatically selects and displays the top 5 rows from the sorted data frame, corresponding to the five rows with the highest stream counts.
 ```
 # most streamed song
@@ -225,8 +229,9 @@ top_5
 | Bad Bunny       | 19    |
 | Harry Styles    | 17    |
 
+☆
 
-## TEMPORAL TRENDS
+## ༊*·˚TEMPORAL TRENDS ₊˚✩
 Importing Seaborn, a visualization Library, will enhance the aesthetics of the plot. Next, the data frame is grouped by released_month and released_year columns and uses value_counts() to count the occurrences for each month and year; the function sort_index() is used to arrange the counts chronologically.
 
 This first plot is a line chart of the tracks by year, where a Seaborn theme called whitegrid and a pastel color palette are applied. The figure size is set to 10x7 inches. The line plot is created with the years plotted along the x-axis and the count of tracks plotted along the y-axis. A marker has been added at every data point for visibility. Titles and axis labels have been added to the plot for more straightforward interpretation, and finally, plt.show() to view the plot.
@@ -296,7 +301,9 @@ The number of tracks per year has continually grown, especially over the early 2
 Since this dataset focuses on the most listened-to songs of 2023, it is heavily concentrated on tracks released from 2020 onward. With digital streaming continuing to grow as an industry and recent music aligning with current trends, these newer songs naturally generate more streams. This also explains the sparse releases from 1940 to the early 2000s, as songs from those decades may no longer resonate with today's listeners or fit modern trends, making them less likely to appear in the most-streamed lists.
 ![Alt text](3.png)
 
-## GENRE AND MUSIC CHARACTERISTICS 
+☆
+
+## ༊*·˚GENRE AND MUSIC CHARACTERISTICS ₊˚✩ 
 This code produces a figure with three scatter plots exploring the relationship between music streaming attributes and musical attributes. Using the plt.subplots function will create a figure with one row, and, in that row, three subplots are defined in terms of an array as used to refer to each subplot. The first scatter plot is axs[0], showing the relationship between beats per minute and the number of streams; the second plot is axs[1], considering the relationship between danceability and streams; and the third plot is axs[2], which is on energy levels related to streams. The scatter plots are created by sns.scatterplot, where the index of the axs array defines each subplot.  All the plots are customized based on colors, transparency, titles, and axis labels for better visibility and clarity. The function tight_layout is used to adjust layouts to increase the readability of plot titles and labels.
 ```
 # Set up the visual style for the plots
@@ -339,7 +346,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-### Streams vs. Musical Attributes
+### ୧ ‧₊˚Streams vs. Musical Attributes₊˚⊹♡
 ![Alt text](4.png)
 
 Streams vs BPM
@@ -354,7 +361,7 @@ Streams vs energy (%)
 Overall Relationship between Streams and Musical Attributes
 - BPM, danceability, and energy do not significantly impact a song's streaming numbers. These musical attributes alone are insufficient to explain streaming performance, indicating that other factors, such as the artist's popularity, genre, and marketing reach, likely play a more influential role. If anything, BPM shows a slight edge, with higher streams observed in the 80 to 120 BPM range. This could be due to genre preferences, as hip-hop—a popular genre on platforms like Spotify—often falls within this BPM range (Spotify, 2023).
 
-### Musical Attributes: Comparison
+### ୧ ‧₊˚Musical Attributes: Comparison₊˚⊹♡
 Danceability (%) vs Energy (%)
 - The plt.scatter function plots the data from the data frame, with danceability_% as the x-axis and energy_% on the y-axis. Each data point is displayed in pink, and an alpha parameter of 0.6 makes the points slightly transparent, helping to visualize overlapping points more effectively. Each axis is labeled for context using the functions plt.xlabelfor the x-axis and plt.ylabel for the y-axis. The chart is also given a title through plt.title, indicating the plot's representation.
 ```
@@ -405,7 +412,9 @@ plt.show()
 - The plot for valence and acoustics shows a scattered distribution with no apparent linear pattern. This lack of a trend implies valence and acoustics are not strongly correlated. If these two attributes had a strong relationship, a visible trend should be visible where the variables are either proportional or vice versa. However, the points are evenly spread throughout the plot, meaning the variables do not significantly impact one another.
 ![Alt text](6.png)
 
-## PLATFORM POPULARITY
+☆
+
+## ༊*·˚PLATFORM POPULARITY ₊˚✩
 The platforms are defined by "Spotify Playlists," "Deezer Playlists," and "Apple Playlists,". While the count's array was a sum of total track counts for each platform inside spoof['in_spotify_playlists'], spoof['in_deezer_playlists'], and spoof['in_apple_playlists'] using the sum function. Using sns.barplot, the chart shows the platform names on the x-axis and the associated total track counts on the y-axis. For the y-axis and the title, the functions plt.title and plt.ylabel were used to produce the title and label for the y-axis. 
 ```
 # Set a pastel theme for the plots
@@ -437,8 +446,9 @@ From the visualization, it is clear that Spotify favors popular tracks more, as 
 On the other hand, the number of tracks on Deezer and Apple Music's playlists is much smaller. This might be attributed to their smaller user base as compared to others. For instance, Deezer has around 10.5 million subscribers (Deezer, 2024), and Apple Music has around 93 million (DemandSage, 2024). The difference in the number of subscribers leads to a difference in activity and popularity in playlists.
 ![Alt text](7.png)
 
-## ADVANCED ANALYSIS 
+☆
 
+## ༊*·˚ADVANCED ANALYSIS ₊˚✩
 Sns.boxplot, which, in this case, plots across different musical keys on the x-axis and the y-axis as the count of streams. The data frame further splits the data down to mode major/minor by setting the hue parameter so each essential mode gets assigned a separate color for comparison. Use the y-axis logarithm scaling (plt.yscale('log')) to see through the wide range on stream counts to better visualize this plot by compressing the extreme values. Finally, the plot is titled "Streams Distribution," and the y-axis is labeled "Streams (Log Scale)" for context.
 ```
 # Figure size
@@ -540,9 +550,16 @@ dominated the most curated lists and charts because of their broad ap
 Taylor Swift was crowned the Most Famous Artist of 2023, acknowledging her significant influence and cultural trends worldwide. Harry Styles' song "As It Was" was the third most streamed song, and The Weeknd's Starboy ranked as the third most successful album globally, proving his current trend in music charts. Many artists constantly appearing on these playlists are indeed superstars widely recognized for their frequent presence in the international top 10 based on album strength, song, and overall artist power (Spotify, 2023). The fact that these established artists dominate the playlists is a testament to the power of their loyal fan base and general appeal.
 ![Alt text](9.png)
 
-## Reference
+☆
+
+## ༊*·˚Reference ₊˚✩
 [Nearly a Quarter of All Streams on Spotify Are Hip-Hop. Spotify's Global Editors Reflect on the Genre's Growth — Spotify](https://newsroom.spotify.com/2023-08-10/hip-hop-50-murals-new-york-atlanta-miami-los-angeles/)
 [Best music streaming services in 2024 | CNN Underscored](https://edition.cnn.com/cnn-underscored/reviews/best-music-streaming-service#:~:text=We%20found%20Tidal%20to%20be,royalty%20payouts%20for%20music%20artists.&text=The%20best%20music%20streaming%20services,Tidal%20manages%20to%20do%20both.)
 [ Deezer FY23 Results: Strong performance and momentum; reiterating financial targets for 2024 & 2025 - Deezer Newsroom](https://www.demandsage.com/apple-music-statistics/#:~:text=As%20of%202024%2C%20Apple%20Music%20has%2030.7%25%20of%20the%20subscriber,its%20revenue%20reached%20%249.2%20billion.)
 https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/media/music/your-brain-on-music/your-brain-on-music/your-brain-on-music-tearjerkers/
 https://newsroom.spotify.com/2023-11-29/top-songs-artists-podcasts-albums-trends-2023/
+
+# ☆૮꒰•༝  •。꒱ა
+# ૮꒰ྀི∩´ ᵕ `∩꒱ྀིა
+# ᘏ  ⑅  ᘏ   ഒ    zᶻ
+# ꒰˶ - ˕ -꒱ ⌒)ᦱ
