@@ -1,21 +1,48 @@
 ## SPOOF🕸️
 
 ### INTRODUCTION 
-
-  This repository uses Python packages like Pandas, Matplotlib, and Seaborn to analyze Kaggle's Most Streamed Spotify Songs 2023. Popular songs with characteristics like BPM, key, mode, and playlist appearances are included in the dataset, which provides information on listener preferences and worldwide music trends.
+This repository uses Python packages like Pandas, Matplotlib, and Seaborn to analyze Kaggle's Most Streamed Spotify Songs 2023. Popular songs with characteristics like BPM, key, mode, and playlist appearances are included in the dataset, which provides information on listener preferences and worldwide music trends.
   
-  Top songs, famous singers, and release schedules are all examined. It also looks at the relationship between musical elements like danceability, energy, and stream count to pinpoint the qualities that influence popularity. The specific statistics from Spotify, Deezer, and Apple Music highlight disparities in song representation among streaming services.
+Top songs, famous singers, and release schedules are all examined. It also looks at the relationship between musical elements like danceability, energy, and stream count to pinpoint the qualities that influence popularity. The specific statistics from Spotify, Deezer, and Apple Music highlight disparities in song representation among streaming services.
   
-  The central coding platform used to clean the dataset was Jupyter Notebook. GitHub was used to store and distribute explanations of the Jupyter Notebook results. The core of 2023's most-streamed music, as well as the patterns and trends influencing listener preferences worldwide, are captured in this repository.
+The central coding platform used to clean the dataset was Jupyter Notebook. GitHub was used to store and distribute explanations of the Jupyter Notebook results. The core of 2023's most-streamed music, as well as the patterns and trends influencing listener preferences worldwide, are captured in this repository.
 
-OVERVIEW
-
+### OVERVIEW
 The data frame is approximately 953 x 24 (row x column). The shape of the data frame can be seen using the code below.
-(code)
-
+```
+spoof.shape
+```
 Each data type in the columns can be seen using the type function in Pandas. 
-(code)
-(table) 
+```
+spoof.dtypes
+```
+| Column               | Data Type |
+|----------------------|-----------|
+| track_name           | object    |
+| artist(s)_name       | object    |
+| artist_count         | int64     |
+| released_year        | int64     |
+| released_month       | int64     |
+| released_day         | int64     |
+| in_spotify_playlists | int64     |
+| in_spotify_charts    | int64     |
+| streams              | object    |
+| in_apple_playlists   | int64     |
+| in_apple_charts      | int64     |
+| in_deezer_playlists  | object    |
+| in_deezer_charts     | int64     |
+| in_shazam_charts     | object    |
+| bpm                  | int64     |
+| key                  | object    |
+| mode                 | object    |
+| danceability_%       | int64     |
+| valence_%            | int64     |
+| energy_%             | int64     |
+| acousticness_%       | int64     |
+| instrumentalness_%   | int64     |
+| liveness_%           | int64     |
+| speechiness_%        | int64     |
+
 
 The table shows a discrepancy with the data types of some columns: in_deezer_playlists, in_shazam_charts, and streams. Using the function pd.to_numeric, the object can be turned to an integer or float while the agreement error =' coerce 'will convert any non-convertible values to NaN (Not a Number). 
 (code)
