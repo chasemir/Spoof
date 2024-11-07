@@ -189,13 +189,13 @@ plt.show()
 ### Trends and Outliers 
 
 Trends
-The plot shows an increase in the number of songs released over time, especially from 2000 to 2020, where there is a dense cluster of data points. In the earlier years, from 1940 to 2000, collaborations between artists were minimal, with most releases involving only one or two artists. After 2000, artist collaborations became more common, as indicated by the higher artist counts.
+- The plot shows an increase in the number of songs released over time, especially from 2000 to 2020, where there is a dense cluster of data points. In the earlier years, from 1940 to 2000, collaborations between - artists were minimal, with most releases involving only one or two artists. After 2000, artist collaborations became more common, as indicated by the higher artist counts.
 
 Outliers
-Artist counts above 3 are sparse from 1940 to 2000, with only one notable outlier showing an artist count of 4. Although collaborations increased steadily after 2000, releases with more than four artists remain relatively rare. For example, there are only two data points each for artist counts of 5, 7, and 8, and just one data point for an artist count of 6. These values are still low compared to releases with artist counts below 3, which are far more common.
+- Artist counts above 3 are sparse from 1940 to 2000, with only one notable outlier showing an artist count of 4. Although collaborations increased steadily after 2000, releases with more than four artists remain relatively rare. For example, there are only two data points each for artist counts of 5, 7, and 8, and just one data point for an artist count of 6. These values are still low compared to releases with artist -counts below 3, which are far more common.
 
 ## TOP PERFORMERS 
-The sort_values function sorts the rows of the data frame based on the specified column, 'streams' in this case. By setting the ascending=False argument, the values are sorted in descending order, meaning the rows with the highest number of streams will appear first. After sorting, the head(5) function automatically selects and displays the top 5 rows from the sorted data frame, corresponding to the five rows with the highest stream counts.
+- The sort_values function sorts the rows of the data frame based on the specified column, 'streams' in this case. By setting the ascending=False argument, the values are sorted in descending order, meaning the rows with the highest number of streams will appear first. After sorting, the head(5) function automatically selects and displays the top 5 rows from the sorted data frame, corresponding to the five rows with the highest stream counts.
 ```
 # most streamed song
 
