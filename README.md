@@ -1,5 +1,8 @@
 # ˚₊‧꒰ა SPOOF ໒꒱ ‧₊˚
 
+welcome
+## ꒰ᐢ⸝⸝•༝•⸝⸝ᐢ꒱⸒⸒ 
+
 ## INTRODUCTION 
 This repository uses Python packages like Pandas, Matplotlib, and Seaborn to analyze Kaggle's Most Streamed Spotify Songs 2023. Popular songs with characteristics like BPM, key, mode, and playlist appearances are included in the dataset, which provides information on listener preferences and worldwide music trends.
 
@@ -553,14 +556,14 @@ Taylor Swift was crowned the Most Famous Artist of 2023, acknowledging her
 ☆
 
 ## ༊*·˚Reference ₊˚✩
-[Nearly a Quarter of All Streams on Spotify Are Hip-Hop. Spotify's Global Editors Reflect on the Genre's Growth — Spotify](https://newsroom.spotify.com/2023-08-10/hip-hop-50-murals-new-york-atlanta-miami-los-angeles/)
-[Best music streaming services in 2024 | CNN Underscored](https://edition.cnn.com/cnn-underscored/reviews/best-music-streaming-service#:~:text=We%20found%20Tidal%20to%20be,royalty%20payouts%20for%20music%20artists.&text=The%20best%20music%20streaming%20services,Tidal%20manages%20to%20do%20both.)
-[ Deezer FY23 Results: Strong performance and momentum; reiterating financial targets for 2024 & 2025 - Deezer Newsroom](https://www.demandsage.com/apple-music-statistics/#:~:text=As%20of%202024%2C%20Apple%20Music%20has%2030.7%25%20of%20the%20subscriber,its%20revenue%20reached%20%249.2%20billion.)
-https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/media/music/your-brain-on-music/your-brain-on-music/your-brain-on-music-tearjerkers/
-https://newsroom.spotify.com/2023-11-29/top-songs-artists-podcasts-albums-trends-2023/
-Thank you so much to my one and only partner: ChatGpt ໒꒰ྀི っ ⸝⸝ ˂ ꒱ྀིა
+- [Nearly a Quarter of All Streams on Spotify Are Hip-Hop. Spotify's Global Editors Reflect on the Genre's Growth — Spotify](https://newsroom.spotify.com/2023-08-10/hip-hop-50-murals-new-york-atlanta-miami-los-angeles/)
+- [Best music streaming services in 2024 | CNN Underscored](https://edition.cnn.com/cnn-underscored/reviews/best-music-streaming service#:~:text=We%20found%20Tidal%20to%20be,royalty%20payouts%20for%20music%20artists.&text=The%20best%20music%20streaming%20services,Tidal%20manages%20to%20do%20both.)
+- [ Deezer FY23 Results: Strong performance and momentum; reiterating financial targets for 2024 & 2025 - Deezer Newsroom](https://www.demandsage.com/apple-music-statistics/#:~:text=As%20of%202024%2C%20Apple%20Music%20has%2030.7%25%20of%20the%20subscriber,its%20revenue%20reached%20%249.2%20billion.)
+- https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/media/music/your-brain-on-music/your-brain-on-music/your-brain-on-music-tearjerkers/
+- https://newsroom.spotify.com/2023-11-29/top-songs-artists-podcasts-albums-trends-2023/
+- Thank you so much to my one and only partner: ChatGpt ໒꒰ྀི っ ⸝⸝ ˂ ꒱ྀིა
 
 
 
-## ᘏ  ⑅  ᘏ  ഒ   zᶻ
-## ꒰˶ - ˕ -꒱ ⌒)ᦱ
+# ᘏ  ⑅  ᘏ  ഒ   zᶻ
+# ꒰˶ - ˕ -꒱ ⌒)ᦱ
