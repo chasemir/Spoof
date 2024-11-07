@@ -1,6 +1,5 @@
 # ˚₊‧꒰ა SPOOF ໒꒱ ‧₊˚
 
-welcome
 ## ꒰ᐢ⸝⸝•༝•⸝⸝ᐢ꒱⸒⸒ 
 
 ## INTRODUCTION 
