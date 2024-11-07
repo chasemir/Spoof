@@ -189,13 +189,13 @@ plt.show()
 ### Trends and Outliers 
 
 Trends
-- The plot shows an increase in the number of songs released over time, especially from 2000 to 2020, where there is a dense cluster of data points. In the earlier years, from 1940 to 2000, collaborations between - artists were minimal, with most releases involving only one or two artists. After 2000, artist collaborations became more common, as indicated by the higher artist counts.
+- The plot shows an increase in the number of songs released over time, especially from 2000 to 2020, where there is a dense cluster of data points. In the earlier years, from 1940 to 2000, collaborations between artists were minimal, with most releases involving only one or two artists. After 2000, artist collaborations became more common, as indicated by the higher artist counts.
 
 Outliers
 - Artist counts above 3 are sparse from 1940 to 2000, with only one notable outlier showing an artist count of 4. Although collaborations increased steadily after 2000, releases with more than four artists remain relatively rare. For example, there are only two data points each for artist counts of 5, 7, and 8, and just one data point for an artist count of 6. These values are still low compared to releases with artist -counts below 3, which are far more common.
 
 ## TOP PERFORMERS 
-- The sort_values function sorts the rows of the data frame based on the specified column, 'streams' in this case. By setting the ascending=False argument, the values are sorted in descending order, meaning the rows with the highest number of streams will appear first. After sorting, the head(5) function automatically selects and displays the top 5 rows from the sorted data frame, corresponding to the five rows with the highest stream counts.
+The sort_values function sorts the rows of the data frame based on the specified column, 'streams' in this case. By setting the ascending=False argument, the values are sorted in descending order, meaning the rows with the highest number of streams will appear first. After sorting, the head(5) function automatically selects and displays the top 5 rows from the sorted data frame, corresponding to the five rows with the highest stream counts.
 ```
 # most streamed song
 
@@ -343,20 +343,20 @@ plt.show()
 ![Alt text](4.png)
 
 Streams vs BPM
-The relationship between BPM and streams reveals little of a connection. Data points are scattered across the plot, with no noticeable upward or downward trend. Although streams are slightly higher in the 80 to 120 BPM range, they are still insignificant enough to indicate a clear pattern. Even BPMs between 160 and 180 reach similar streaming levels, reinforcing that BPM does not strongly influence streaming numbers.
+- The relationship between BPM and streams reveals little of a connection. Data points are scattered across the plot, with no noticeable upward or downward trend. Although streams are slightly higher in the 80 to 120 BPM range, they are still insignificant enough to indicate a clear pattern. Even BPMs between 160 and 180 reach similar streaming levels, reinforcing that BPM does not strongly influence streaming numbers.
 
 Streams vs danceability (%)
-A similar lack of correlation appears with danceability. The data points are spread widely, showing no distinct trend between higher danceability percentages and streaming numbers. While slightly higher streams are seen in the 40% to 80% range, high streaming numbers still appear outside this band (notably in the 80%-90% and 30%-40% ranges). This suggests that danceability does not directly impact a song's streaming performance.
+- A similar lack of correlation appears with danceability. The data points are spread widely, showing no distinct trend between higher danceability percentages and streaming numbers. While slightly higher streams are seen in the 40% to 80% range, high streaming numbers still appear outside this band (notably in the 80%-90% and 30%-40% ranges). This suggests that danceability does not directly impact a song's streaming performance.
 
 Streams vs energy (%)
-Energy only affects streams a little, too. Although energy levels between 40% and 80% show more songs with high streams, there are also tracks with substantial streaming numbers at lower energy levels, around 20%. The absence of a clear trend suggests that energy is not a significant driver of streaming success.
+- Energy only affects streams a little, too. Although energy levels between 40% and 80% show more songs with high streams, there are also tracks with substantial streaming numbers at lower energy levels, around 20%. The absence of a clear trend suggests that energy is not a significant driver of streaming success.
 
 Overall Relationship between Streams and Musical Attributes
-BPM, danceability, and energy do not significantly impact a song's streaming numbers. These musical attributes alone are insufficient to explain streaming performance, indicating that other factors, such as the artist's popularity, genre, and marketing reach, likely play a more influential role. If anything, BPM shows a slight edge, with higher streams observed in the 80 to 120 BPM range. This could be due to genre preferences, as hip-hop—a popular genre on platforms like Spotify—often falls within this BPM range (Spotify, 2023).
+- BPM, danceability, and energy do not significantly impact a song's streaming numbers. These musical attributes alone are insufficient to explain streaming performance, indicating that other factors, such as the artist's popularity, genre, and marketing reach, likely play a more influential role. If anything, BPM shows a slight edge, with higher streams observed in the 80 to 120 BPM range. This could be due to genre preferences, as hip-hop—a popular genre on platforms like Spotify—often falls within this BPM range (Spotify, 2023).
 
 ### Musical Attributes: Comparison
 Danceability (%) vs Energy (%)
-The plt.scatter function plots the data from the data frame, with danceability_% as the x-axis and energy_% on the y-axis. Each data point is displayed in pink, and an alpha parameter of 0.6 makes the points slightly transparent, helping to visualize overlapping points more effectively. Each axis is labeled for context using the functions plt.xlabelfor the x-axis and plt.ylabel for the y-axis. The chart is also given a title through plt.title, indicating the plot's representation.
+- The plt.scatter function plots the data from the data frame, with danceability_% as the x-axis and energy_% on the y-axis. Each data point is displayed in pink, and an alpha parameter of 0.6 makes the points slightly transparent, helping to visualize overlapping points more effectively. Each axis is labeled for context using the functions plt.xlabelfor the x-axis and plt.ylabel for the y-axis. The chart is also given a title through plt.title, indicating the plot's representation.
 ```
 # Figure size
 
@@ -377,12 +377,11 @@ plt.title('Scatter Plot of Dance Ability and Energy')
 plt.show()
 ```
 
-The marks for plot and danceability are scattered on the graph, which suggests that these qualities probably do not correlate so well. Much more correlation would have a trend or clustering either upwardly or downwardly. The points having a random scattering around this chart means that energy does not rise or fall in such a predictable fashion as with danceability rising.
+- The marks for plot and danceability are scattered on the graph, which suggests that these qualities probably do not correlate so well. Much more correlation would have a trend or clustering either upwardly or downwardly. The points having a random scattering around this chart means that energy does not rise or fall in such a predictable fashion as with danceability rising.
 ![Alt text](5.png)
 
 Valence (%) vs Acousticness (%)
-
-The data from the data frame is plotted using the plt.scatter function, with valence_% on the x-axis and acousticness_% on the y-axis. To better visualize overlapping dots, each data point is shown in lavender with an alpha setting of 0.8, which makes the points somewhat transparent. The routines plt.xlabel for the x-axis and plt.ylabel for the y-axis are used to label each axis for context. Additionally, plt.title is used to provide the chart with a title that identifies the plot.
+- The data from the data frame is plotted using the plt.scatter function, with valence_% on the x-axis and acousticness_% on the y-axis. To better visualize overlapping dots, each data point is shown in lavender with an alpha setting of 0.8, which makes the points somewhat transparent. The routines plt.xlabel for the x-axis and plt.ylabel for the y-axis are used to label each axis for context. Additionally, plt.title is used to provide the chart with a title that identifies the plot.
 ```
 # Figure size
 
@@ -403,7 +402,7 @@ plt.title('Scatter Plot of Valence and Acousticness')
 plt.show()
 ```
 
-The plot for valence and acoustics shows a scattered distribution with no apparent linear pattern. This lack of a trend implies valence and acoustics are not strongly correlated. If these two attributes had a strong relationship, a visible trend should be visible where the variables are either proportional or vice versa. However, the points are evenly spread throughout the plot, meaning the variables do not significantly impact one another.
+- The plot for valence and acoustics shows a scattered distribution with no apparent linear pattern. This lack of a trend implies valence and acoustics are not strongly correlated. If these two attributes had a strong relationship, a visible trend should be visible where the variables are either proportional or vice versa. However, the points are evenly spread throughout the plot, meaning the variables do not significantly impact one another.
 ![Alt text](6.png)
 
 ## PLATFORM POPULARITY
@@ -508,7 +507,6 @@ print(top_10[['total_playlists', 'total_charts']])
 | Avicii               | 68,648.0        | 426.0        |
 | Adele                | 66,551.0        | 1,035.0      |
 | Dr. Dre, Snoop Dogg  | 66,011.0        | 1,073.0      |
-
 
 For every artist, there is a bar for playlist appearances and a bar for chart appearances. A width of 0.35 is set for each bar, and the index sets the positions down the x-axis for each artist. Now the code plots everything using plt.xlabel for "Artists," plt.ylabel for the y axis, and plt.title for giving a title to the entire chart,  "Comparison of Total Appearances in Playlists vs Charts for Top 10 Artists." Finally,  plt.xticks will place the artist names at the middle of the bar pair and set the rotation to 360 degrees to align the artist names horizontally. Finally, plt.tight_layout ensures proper layout without overlap of elements so that everything gets nicely accommodated within the figure.
 ```
