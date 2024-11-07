@@ -558,8 +558,9 @@ Taylor Swift was crowned the Most Famous Artist of 2023, acknowledging her
 [ Deezer FY23 Results: Strong performance and momentum; reiterating financial targets for 2024 & 2025 - Deezer Newsroom](https://www.demandsage.com/apple-music-statistics/#:~:text=As%20of%202024%2C%20Apple%20Music%20has%2030.7%25%20of%20the%20subscriber,its%20revenue%20reached%20%249.2%20billion.)
 https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/media/music/your-brain-on-music/your-brain-on-music/your-brain-on-music-tearjerkers/
 https://newsroom.spotify.com/2023-11-29/top-songs-artists-podcasts-albums-trends-2023/
+Thank you so much to my one and only partner: ChatGpt ໒꒰ྀི っ ⸝⸝ ˂ ꒱ྀིა
 
-# ☆૮꒰•༝  •。꒱ა
-# ૮꒰ྀི∩´ ᵕ `∩꒱ྀིა
-# ᘏ  ⑅  ᘏ   ഒ    zᶻ
+
+
+# ᘏ  ⑅  ᘏ  ഒ   zᶻ
 # ꒰˶ - ˕ -꒱ ⌒)ᦱ
