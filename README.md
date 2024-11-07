@@ -184,7 +184,7 @@ plt.title('Scatter Plot of Released Year VS Artist Count')
 plt.show()
 ```
 
-![Alt text]()
+![Alt text](1.png)
 
 ### Trends and Outliers 
 
